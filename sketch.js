@@ -48,7 +48,7 @@ function changeSentence() {
   sentence = random(sentences);
   if (sentence) {
     let strs = sentence.split(" ");
-    for (let i = 0; i < strs.length*50; i++) {
+    for (let i = 0; i < strs.length*80; i++) {
       let x = random(-width / 2, width / 2);
       let y = random(-height / 2, height / 2);
       let z = random(-width*5, width/2);
